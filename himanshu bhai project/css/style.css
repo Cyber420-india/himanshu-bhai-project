@@ -4,11 +4,6 @@
 }
 
 body{
-    background-color: black;
-}
-
-
-body{
     background-color:white;
 }
 
@@ -16,8 +11,6 @@ body{
     margin: 10px;
     padding: 10px;
     background-color: #0a0a24;
-    border: 2px solid white;
-    
     display: flex;
     align-items: center;
     align-content: center;
@@ -25,27 +18,37 @@ body{
 
 #navbar ul{
     display: flex;
-    align-content: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 #navbar ul li{
+
     list-style: none;
     font-size: 1.3rem;
 }
 
 #navbar ul li a{
+    align-content: center;
     border-radius: 20px;
-    color: white;
+    color: rgb(73, 67, 67);
     display: block;
     text-decoration: none;
-    padding: 23px 33px;
+    padding: 6px 9px;
     
 }
 
 
 #heading{
+    font-size: 23px;
     color: white;
+}
+#navbar button{
+    background-color: #3b3b78;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 5px;
 }
 
 #navbar::before{
@@ -62,16 +65,7 @@ body{
     opacity: 0.4;
 }
 
-/* #navbar ul li a:hover{
+ #navbar ul li a:hover{
     color: black;
-    background-color: green;
-} */
-
-
-
-
-#footer{
-    margin: 10px;
-    padding: 10px;
-    border:2px solid white;
-}
+    background-color:white;
+} 
